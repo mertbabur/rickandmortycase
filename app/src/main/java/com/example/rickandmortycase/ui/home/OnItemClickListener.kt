@@ -1,7 +1,9 @@
 package com.example.rickandmortycase.ui.home
 
+import com.example.rickandmortycase.data.model.response.Result
+
 interface OnItemClickListener {
 
-    fun onItemClickListener(index: Int)
+    fun onItemClickListener(characterResult: Result)
 
 }

@@ -4,10 +4,10 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.rickandmortycase.R
 import com.example.rickandmortycase.data.model.response.Result
 import com.example.rickandmortycase.databinding.ItemHomeCharacterBinding
-import com.squareup.picasso.Picasso
+import com.example.rickandmortycase.utils.extensions.setCharacterImage
+import com.example.rickandmortycase.utils.extensions.setCharacterStatus
 import javax.inject.Inject
 
 class HomeCharactersAdapter @Inject constructor(
@@ -26,20 +26,14 @@ class HomeCharactersAdapter @Inject constructor(
     override fun onBindViewHolder(holder: GamesViewHolder, position: Int) {
         val currentItem = resultList[position]
         holder.binding.apply {
-
-            Picasso.get().load(currentItem.image).into(ivItemCharacterImage)
-            tvItemCharacterName.text = currentItem.name
-
             val characterStatus = currentItem.status
             tvItemCharacterStatus.text = characterStatus
-
-            if (characterStatus == "Alive") ivItemCharacterStatus.setImageResource(R.drawable.ic_alive_status)
-            else if (characterStatus == "Dead") ivItemCharacterStatus.setImageResource(R.drawable.ic_dead_status)
-            else ivItemCharacterStatus.setImageResource(R.drawable.ic_unknown_status)
-
+            ivItemCharacterStatus.setCharacterStatus(characterStatus)
+            ivItemCharacterImage.setCharacterImage(currentItem.image)
+            tvItemCharacterName.text = currentItem.name
         }
         holder.itemView.setOnClickListener {
-            onItemClickListener.onItemClickListener(position)
+            onItemClickListener.onItemClickListener(currentItem)
         }
     }
 
