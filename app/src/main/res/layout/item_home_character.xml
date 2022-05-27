@@ -4,50 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bg_item_character"
-    android:layout_marginVertical="10dp">
+    android:layout_marginVertical="@dimen/dimens10dp"
+    android:background="@drawable/bg_item_character">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/ivItemCharacterImage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/ic_launcher"
+        android:layout_width="@dimen/dimens100dp"
+        android:layout_height="@dimen/dimens100dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.SelectedCornerRadius" />
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.SelectedCornerRadius"
+        tools:src="@mipmap/ic_launcher" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvItemCharacterName"
-        android:layout_width="wrap_content"
+        style="@style/TextAppearance.Title.Title20"
+        android:layout_width="@dimen/dimens0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/roboto_bold"
-        android:textColor="@color/white_smoke"
-        android:textSize="25sp"
+        android:layout_marginHorizontal="@dimen/dimens20dp"
+        android:layout_marginTop="@dimen/dimens20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/ivItemCharacterImage"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Mrs.Sanchez" />
+        tools:text="@string/mrs_sanchez" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivItemCharacterStatus"
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimens20dp"
+        android:layout_marginTop="@dimen/dimens15dp"
         android:src="@drawable/ic_alive_status"
         app:layout_constraintStart_toEndOf="@+id/ivItemCharacterImage"
         app:layout_constraintTop_toBottomOf="@+id/tvItemCharacterName" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvItemCharacterStatus"
+        style="@style/TextAppearance.Body.Body15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/roboto_medium"
-        android:textColor="@color/white_smoke"
-        android:textSize="15sp"
+        android:layout_marginStart="@dimen/dimens5dp"
+        android:layout_marginTop="@dimen/dimens10dp"
         app:layout_constraintStart_toEndOf="@+id/ivItemCharacterStatus"
         app:layout_constraintTop_toBottomOf="@+id/tvItemCharacterName"
         tools:text="@string/character_status" />
