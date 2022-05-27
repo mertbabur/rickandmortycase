@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SP -->
+    <dimen name="dimens15sp">15sp</dimen>
+    <dimen name="dimens18sp">18sp</dimen>
+    <dimen name="dimens20sp">20sp</dimen>
+    <dimen name="dimens25sp">25sp</dimen>
+    <dimen name="dimens30sp">30sp</dimen>
+
+    <!-- DP -->
+    <dimen name="dimens0dp">0dp</dimen>
+    <dimen name="dimens1dp">1dp</dimen>
+    <dimen name="dimens5dp">5dp</dimen>
+    <dimen name="dimens10dp">10dp</dimen>
+    <dimen name="dimens15dp">15dp</dimen>
+    <dimen name="dimens20dp">20dp</dimen>
+    <dimen name="dimens25dp">25dp</dimen>
+    <dimen name="dimens30dp">30dp</dimen>
+    <dimen name="dimens40dp">40dp</dimen>
+    <dimen name="dimens50dp">50dp</dimen>
+    <dimen name="dimens55dp">55dp</dimen>
+    <dimen name="dimens60dp">60dp</dimen>
+    <dimen name="dimens65dp">65dp</dimen>
+    <dimen name="dimens70dp">70dp</dimen>
+    <dimen name="dimens75dp">75dp</dimen>
+    <dimen name="dimens80dp">80dp</dimen>
+    <dimen name="dimens90dp">90dp</dimen>
+    <dimen name="dimens100dp">100dp</dimen>
+    <dimen name="dimens105dp">105dp</dimen>
+    <dimen name="dimens120dp">120dp</dimen>
+    <dimen name="dimens300dp">300dp</dimen>
+    <dimen name="dimens450dp">450dp</dimen>
+</resources>
