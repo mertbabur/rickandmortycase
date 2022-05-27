@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_character"
+    android:layout_marginVertical="10dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivItemCharacterImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.SelectedCornerRadius" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvItemCharacterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/white_smoke"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@id/ivItemCharacterImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Mrs.Sanchez" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivItemCharacterStatus"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_alive_status"
+        app:layout_constraintStart_toEndOf="@+id/ivItemCharacterImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemCharacterName" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvItemCharacterStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white_smoke"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/ivItemCharacterStatus"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemCharacterName"
+        tools:text="@string/character_status" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
