@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2775" />
+        <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/bg_gradient.xml" value="0.135" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/bg_item_character.xml" value="0.2785" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/ic_alive_status.xml" value="0.2785" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/ic_dead_status.xml" value="0.2785" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/ic_status.xml" value="0.2785" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/ic_unknown_status.xml" value="0.1665" />
+        <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/drawable/splash_background.xml" value="0.135" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/layout/fragment_detail.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/layout/item_home_character.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mertb/AndroidStudioProjects/rickandmortycase/app/src/main/res/layout/item_home_character.xml" value="0.33" />
       </map>
     </option>
   </component>

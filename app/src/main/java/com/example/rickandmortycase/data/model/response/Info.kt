@@ -1,8 +1,6 @@
 package com.example.rickandmortycase.data.model.response
 
 
-import com.google.gson.annotations.SerializedName
-
 data class Info(
     val count: Int?,
     val next: String?,
