@@ -2,4 +2,12 @@
     <string name="app_name">rickandmortycase</string>
     <string name="the_rick_and_morty">The Rick and Morty</string>
     <string name="character_status">Alive - Cronenberg</string>
+    <string name="mrs_sanchez">Mrs.Sanchez</string>
+    <string name="human">human</string>
+    <string name="male">male</string>
+    <string name="alive">Alive</string>
+    <string name="origin">Origin</string>
+    <string name="earth">Earth (C-137)</string>
+    <string name="location">Location</string>
+    <string name="episodes">Episodes 41</string>
 </resources>
