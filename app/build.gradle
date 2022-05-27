@@ -77,4 +77,7 @@ dependencies {
     implementation(platform("com.squareup.okhttp3:okhttp-bom:4.9.0"))
     implementation 'com.squareup.okhttp3:okhttp'
     implementation 'com.squareup.okhttp3:logging-interceptor'
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.8'
 }
