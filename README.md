@@ -1,6 +1,6 @@
 # rickandmortycase
 
-Clean architecture, mvvm, hilt, retrofit, okhttp, navigation, viewbinding, coroutines and picasso are used in this project.
+Clean architecture, Mvvm, Hilt, Retrofit, OkHttp, Navigation, View Binding, Coroutines and Picasso are used in this project.
 
 ## API LİNK :
 
